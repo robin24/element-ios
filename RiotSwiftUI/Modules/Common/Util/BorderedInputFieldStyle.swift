@@ -51,7 +51,7 @@ struct BorderedInputFieldStyle: TextFieldStyle {
         if (theme.identifier == ThemeIdentifier.dark) {
             return (isEnabled ? theme.colors.primaryContent : theme.colors.tertiaryContent)
         } else {
-            return (isEnabled ? theme.colors.primaryContent : theme.colors.quarterlyContent)
+            return (isEnabled ? theme.colors.primaryContent : theme.colors.quaternaryContent)
         }
     }
     

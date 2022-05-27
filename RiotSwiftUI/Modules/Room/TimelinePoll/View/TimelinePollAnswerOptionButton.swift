@@ -90,10 +90,10 @@ struct TimelinePollAnswerOptionButton: View {
     
     var progressViewAccentColor: Color {
         guard !poll.closed else {
-            return (answerOption.winner ? theme.colors.accent : theme.colors.quarterlyContent)
+            return (answerOption.winner ? theme.colors.accent : theme.colors.quaternaryContent)
         }
         
-        return answerOption.selected ? theme.colors.accent : theme.colors.quarterlyContent
+        return answerOption.selected ? theme.colors.accent : theme.colors.quaternaryContent
     }
 }
 
